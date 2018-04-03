@@ -1,0 +1,10 @@
+body{
+  background-color: lightblue;
+}
+.lol{
+  width: 100%;
+  color: red;
+}
+button:hover{
+  background-color:green;
+}

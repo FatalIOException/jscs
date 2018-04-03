@@ -1,10 +1,36 @@
 <!DOCTYPE html>
-<html lang="de" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Homepage</title>
-  </head>
-  <body style="background-color:black">
-    <h1 style="color:white">H1</h1>
-  </body>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/app.css">
+  <title>Home</title>
+</head>
+<body>
+
+<h2>Using The id Attribute in JavaScript</h2>
+<p>JavaScript can access an element with a specified id by using the getElementById() method:</p>
+
+<h1 id="myHeader">Hello World!</h1>
+<h1 class="Mama"> Hello World!</h1>
+
+<div class="lol">
+<button onclick="displayResult()">Change text</button>
+<button onclick="displaysResult()"> lol </button>
+<button onclick="restEverything()"> RESET</button>
+</div>
+
+<script>
+function displayResult() {
+    document.getElementById("myHeader").innerHTML = "Have a nice day!";
+}
+
+function displaysResult(){
+	document.getElementsByClassName("Mama")[0].innerHTML="fuuuuuuuuuuuck";
+}
+function restEverything(){
+console.log("nö")
+}
+</script>
+
+</body>
 </html>
